@@ -1,7 +1,7 @@
 FROM java
 MAINTAINER jack
-
-RUN yum install -y wget
+RUN apt-get update
+RUN apt-get install -y wget
 
 RUN cd /
 
