@@ -2,7 +2,7 @@ FROM centos:7
 MAINTAINER jack
 
 RUN yum install -y wget
-
+RUN echo "HELLOWORLD" > aaa.txt
 #RUN cd /
 
 #ADD jdk-8u152-linux-x64.tar.gz /
